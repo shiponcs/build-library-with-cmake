@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libdemo.so -o libdemo.so CMakeFiles/demo.dir/mylib.c.o 

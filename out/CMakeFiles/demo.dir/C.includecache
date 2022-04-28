@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/matin/shareobject/cmake-pract/mylib.c
+mylib.h
+/root/matin/shareobject/cmake-pract/mylib.h
+stdio.h
+-
+
+/root/matin/shareobject/cmake-pract/mylib.h
+
